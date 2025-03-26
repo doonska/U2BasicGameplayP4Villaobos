@@ -620,23 +620,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &933485370 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4078144547184572775, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
-  m_PrefabInstance: {fileID: 6246423234744003142}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &933663112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933485370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dc7af702a1054b4eaeb9115425429f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,10 +1047,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3088175877785632739, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
-      propertyPath: speed
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4078144547184572775, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
       propertyPath: m_Name
       value: Dog_Pug_01
@@ -1115,10 +1094,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4078144547184572775, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 933663112}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
