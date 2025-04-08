@@ -1009,6 +1009,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4152731301848576896, guid: 2aa8af253d0c7874da9c01851b7f5406, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5038782171003330255, guid: 2aa8af253d0c7874da9c01851b7f5406, type: 3}
       propertyPath: m_Name
       value: Food_Steak_01
@@ -1076,7 +1080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9050687076813709972, guid: 94ee734d708ac6c4292cfc7b8bc499b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9050687076813709972, guid: 94ee734d708ac6c4292cfc7b8bc499b7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1126,6 +1130,10 @@ PrefabInstance:
     - target: {fileID: 4078144547184572775, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
       propertyPath: m_Name
       value: Dog_Pug_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045450187698105835, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
+      propertyPath: m_Center.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9016270732339004429, guid: e485c04dc298a0b4ba9f36b763b4163a, type: 3}
       propertyPath: m_LocalPosition.x

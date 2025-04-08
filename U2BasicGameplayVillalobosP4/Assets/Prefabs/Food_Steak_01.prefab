@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -4152731301848576896}
   - component: {fileID: 7290623776966156127}
   - component: {fileID: 7131921613162670561}
+  - component: {fileID: 7070659418010331512}
   m_Layer: 0
   m_Name: Food_Steak_01
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 5038782171003330255}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.562022, y: 10, z: 7.1527915}
+  m_LocalPosition: {x: 4.562022, y: 0, z: 7.1527915}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -158,5 +159,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dc7af702a1054b4eaeb9115425429f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7070659418010331512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5038782171003330255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe0af0644d575946bdc06d3f0d96c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
